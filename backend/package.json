@@ -4,7 +4,7 @@
   "description": "Ticket Booking backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm start",
     "build": "npm run build",
     "server": "nodemon server.js"
   },
