@@ -20,7 +20,7 @@ const Booking = () => {
     const fetchMovieDetails = async () => {
       try {
         const response = await axios.get(
-          `http://www.omdbapi.com/?apikey=33482900&i=${id}`
+          `https://www.omdbapi.com/?apikey=33482900&i=${id}`
         );
         setMovie(response.data);
       } catch (error) {

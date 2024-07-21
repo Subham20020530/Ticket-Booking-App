@@ -28,12 +28,12 @@ function Home() {
         let response;
         if (searchQuery) {
           response = await axios.get(
-            `http://www.omdbapi.com/?apikey=33482900&s=${searchQuery}&type=movie`
+            `https://www.omdbapi.com/?apikey=33482900&s=${searchQuery}&type=movie`
           );
           setMovies(response.data.Search);
         } else {
           const moviePromises = predefinedPopularMovies.map((id) =>
-            axios.get(`http://www.omdbapi.com/?apikey=33482900&i=${id}`)
+            axios.get(`https://www.omdbapi.com/?apikey=33482900&i=${id}`)
           );
           const movieResponses = await Promise.all(moviePromises);
           setMovies(movieResponses.map((res) => res.data));
