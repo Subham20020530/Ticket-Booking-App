@@ -6,16 +6,16 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 const predefinedPopularMovies = [
-  "tt0111161", // The Shawshank Redemption
-  "tt0068646", // The Godfather
-  "tt0071562", // The Godfather: Part II
-  "tt0468569", // The Dark Knight
-  "tt0050083", // 12 Angry Men
-  "tt0108052", // Schindler's List
-  "tt0167260", // The Lord of the Rings: The Return of the King
-  "tt0110912", // Pulp Fiction
-  "tt0060196", // The Good, the Bad and the Ugly
-  "tt0137523", // Fight Club
+  "tt0111161",
+  "tt0068646",
+  "tt0071562",
+  "tt0468569",
+  "tt0050083",
+  "tt0108052",
+  "tt0167260",
+  "tt0110912",
+  "tt0060196",
+  "tt0137523",
 ];
 
 function Home() {

@@ -41,10 +41,13 @@ function Checkout() {
     }
 
     try {
-      const result = await axios.post("http://localhost:5000/payment/orders", {
-        amount: totalPrice * 100,
-        currency: "INR",
-      });
+      const result = await axios.post(
+        "https://ticket-booking-app-0asy.onrender.com/payment/orders",
+        {
+          amount: totalPrice * 100,
+          currency: "INR",
+        }
+      );
 
       const { amount, id: order_id, currency } = result.data;
 
@@ -64,7 +67,7 @@ function Checkout() {
           };
 
           const result = await axios.post(
-            "http://localhost:5000/payment/success",
+            "https://ticket-booking-app-0asy.onrender.com/payment/success",
             data
           );
 
