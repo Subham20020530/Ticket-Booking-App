@@ -22,7 +22,7 @@ This is a movie ticket booking application built with React and Node.js. Users c
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/movie-ticket-booking-app.git
+    git clone https://github.com/Subham20020530/movie-ticket-booking-app.git
     cd movie-ticket-booking-app
     ```
 
