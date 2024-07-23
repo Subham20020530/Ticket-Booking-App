@@ -54,16 +54,13 @@ This is a movie ticket booking application built with React and Node.js. Users c
 6. Start the frontend server:
     ```sh
     cd frontend
-    npm start
+    npm run dev
     ```
 
 ## Usage
 
-1. Navigate to `http://localhost:3000` in your browser.
+1. Navigate to `http://localhost:5173` in your browser.
 2. Register or login to the application.
 3. Browse movies and select a movie to book tickets.
 4. Select seats and proceed to checkout.
 5. Make a payment using Razorpay.
-
-## Project Structure
-
